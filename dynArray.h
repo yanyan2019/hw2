@@ -8,7 +8,7 @@
 
 #ifndef __TYPE
 #define __TYPE
-# define TYPE double
+# define TYPE char
 # define TYPE_SIZE sizeof(TYPE)
 #endif
 
@@ -38,7 +38,7 @@ TYPE getDynArr(DynArr *v, int pos);
 void putDynArr(DynArr *v, int pos, TYPE val);
 void swapDynArr(DynArr *v, int i, int j);
 void removeAtDynArr(DynArr *v, int idx);
-void _dynArrSetCapacity(DynArr *v, itn newCap);
+void _dynArrSetCapacity(DynArr *v, int newCap);
 
 
 /*stack */
